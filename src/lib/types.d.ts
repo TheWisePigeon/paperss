@@ -1,4 +1,4 @@
 export type PaperComponent = {
-    component: string,
+    id: string,
     value: string
 }
