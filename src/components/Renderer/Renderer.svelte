@@ -20,6 +20,9 @@
 	}
 </script>
 
+{#if data.length==0}
+    <h1 class="text-center text-gray-500">Chose components from the right menu and start writing your paper</h1>
+{/if}
 {#each render_component() as { Component, props }}
 	<svelte:component this={Component} content={props.content} />
 {/each}

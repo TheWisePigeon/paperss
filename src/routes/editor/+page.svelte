@@ -3,15 +3,7 @@
 	import type { PaperComponent } from '$lib/types';
 	import ComponentList from '../../components/ComponentsList/ComponentList.svelte';
 	import PaperInfo from '../../components/PaperInfo/PaperInfo.svelte';
-	const data: PaperComponent[] = [
-		{
-			id: 'Header',
-			value: 'Hey I am a header'
-		},
-		{
-			id: 'Paragraph',
-			value: 'This API helps you find your cat lost on the internet'
-		}
+	let data: PaperComponent[] = [
 	];
 </script>
 
