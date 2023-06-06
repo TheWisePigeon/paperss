@@ -3,4 +3,4 @@
 </script>
 
 
-<h1 class=" font-bold text-2xl">{content}</h1>
+<h1 on:input={()=>{ console.log("Just changed") }} contenteditable="true" class="break-words font-bold text-2xl">{content}</h1>

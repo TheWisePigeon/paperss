@@ -2,4 +2,4 @@
     export let content:string
 </script>
 
-<p>{content}</p>
+<p contenteditable="true" class="break-words">{content}</p>
