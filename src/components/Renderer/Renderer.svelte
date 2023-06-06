@@ -1,11 +1,11 @@
 <script lang="ts">
 	import Header from '../Header/Header.svelte';
-	import TextBox from '../TextBox/TextBox.svelte';
+    import Paragraph from '../Paragraph/Paragraph.svelte';
 	import type { SvelteComponent } from 'svelte';
 	export let data: { id: string; value: string }[];
 	const componentMap: Record<string, typeof SvelteComponent> = {
 		Header,
-		TextBox
+		Paragraph
 	};
 	function render_component() {
 		return data.map((component) => {
