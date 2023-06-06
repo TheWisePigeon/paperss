@@ -19,7 +19,7 @@
 	<section class="w-[25%] h-full">
 		<PaperInfo data={ { version:"1", visibility:"public", author:"Ze Waise Pizong" } }  />
 	</section>
-	<section class="w-[50%] border-x-2 border-black h-full m-auto p-2">
+	<section class="w-[50%] border-x border-black h-full m-auto p-2">
 		<Renderer {data} />
 	</section>
 	<section class="w-[25%] h-full">

@@ -7,7 +7,7 @@
 	export let data: PaperInfo;
 </script>
 
-<div class=" flex flex-col w-full h-full bg-red-400 p-2">
+<div class=" flex flex-col w-full h-full p-2">
 	<h1>Paper version : {data.version}</h1>
 	<h1>Author : {data.author}</h1>
 	<h1>Visibility : {data.visibility}</h1>
